@@ -1,0 +1,38 @@
+{
+    "type": "array",
+    "items":
+    {
+        "type": "object",
+        "properties":
+        {
+            "id":
+            {
+                "type": "integer",
+                "description": "Subscriber ID"
+            },
+            
+            "name":
+            {
+                "type": "string"
+            },
+            
+            "birthday_date":
+            {
+                "type": "integer"
+            },
+            
+            "passport_number":
+            {
+                "type": "string"
+            },
+            
+            "phone_number":
+            {
+                "type": "string"
+            }
+        },
+        "required": ["id", "name", "surname", "patronymic",
+            "sex", "age", "telephone", "drivingage"],
+        "additionalProperties": false
+    }
+}
